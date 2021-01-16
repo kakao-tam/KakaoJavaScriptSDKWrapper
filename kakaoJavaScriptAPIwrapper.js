@@ -1,12 +1,12 @@
 /*global Kakao*/
 /* eslint-disable no-unused-vars */
 
-var JAVASCRIPT_KEY = "2d68640b56d986af5c8a48505c7c8c71";
-var REST_API_KEY = "4408b5bb51bdf4c89879e933556a21e8";
-var CLIENT_SECRET = "QZhr9itOs0mxVRDxIvuOfOLzjZMc5q1U";
-var ADMIN_KEY = "72462462f6fc9baad63f2de2ad3d865b";
+var JAVASCRIPT_KEY = "";
+var REST_API_KEY = "";
+var CLIENT_SECRET = "";
+var ADMIN_KEY = "";
 var REDIRECT_URI = "callBackForKakao.php";
-var CHANNEL_ID = "_GVVxnK";
+var CHANNEL_ID = "";
 
 Kakao.init(JAVASCRIPT_KEY);
 console.log(Kakao.isInitialized());
